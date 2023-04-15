@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 59, 77);
+}
+
+h1{
+    color: white;
+    padding: .5em;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;  
+}
+
+.card{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-blue{
+    background-color: rgb(19, 137, 178);
+}
+.card-green{
+    background-color: rgb(10, 214, 161);
+}
+.card-yellow{
+    background-color: rgb(255, 209, 102);
+}
+.card-red{
+    background-color: rgb(240, 69, 110);
+}
